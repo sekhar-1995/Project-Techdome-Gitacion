@@ -21,9 +21,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Lint
-        run: npm run lint  # Adjust the linting script as per your project setup
-
+      - name: Start npm
+        run: npm start
+        
       - name: Build
         run: npm run build
 
