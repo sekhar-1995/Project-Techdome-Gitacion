@@ -16,17 +16,17 @@ jobs:
       - name: Set Up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16
 
       - name: Install Dependencies
         run: npm install latest
 
-      - name: run audit fix
-        run: npm run audit fix --force
-        
+      - name: Run Audit Fix
+        run: npm audit fix --force
+
       - name: Start npm
         run: npm start
-        
+
       - name: Build
         run: npm run build
 
