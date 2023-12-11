@@ -1,5 +1,4 @@
 {
-  
   "name": "blog_website",
   "version": "0.1.0",
   "private": true,
@@ -29,8 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-     "audit-fix": "npm audit fix --force"
+    "eject": "react-scripts eject",
+    "audit-fix": "npm audit fix --force"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +49,4 @@
       "last 1 safari version"
     ]
   }
-  
 }
